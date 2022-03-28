@@ -1,0 +1,27 @@
+{
+  "name": "@shotanue/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "",
+  "author": "shotanue <shotanue@gmail.com>",
+  "homepage": "https://github.com/shotanue/eslint-config/tree/main/packages/basic#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.12.1"
+  }
+}

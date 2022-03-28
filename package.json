@@ -1,0 +1,23 @@
+{
+  "name": "@shotanue/eslint-config-monorepo",
+  "private": true,
+  "license": "MIT",
+  "description": "@shotanue/eslint-config",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "release": "lerna publish --conventional-commits"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "@shotanue",
+  "homepage": "https://github.com/shotanue/eslint-config#readme",
+  "packageManager": "pnpm@6.32.3",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "lerna": "^4.0.0"
+  }
+}
