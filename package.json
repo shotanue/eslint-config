@@ -5,7 +5,9 @@
   "description": "@shotanue/eslint-config",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish --conventional-commits",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "eslint"
@@ -17,6 +19,8 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@shotanue/eslint-config": "*",
+    "typescript": "4.6.3",
     "eslint": "^7.12.1",
     "lerna": "^4.0.0"
   }
