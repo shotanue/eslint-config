@@ -1,0 +1,28 @@
+{
+  "name": "@shotanue/eslint-config",
+  "version": "0.0.3",
+  "description": "",
+  "author": "shotanue <shotanue@gmail.com>",
+  "homepage": "https://github.com/shotanue/eslint-config/tree/main/packages/vue#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "@shotanue/eslint-config-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.12.1",
+    "typescript": ">=4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
