@@ -1,5 +1,6 @@
 {
   "name": "@shotanue/eslint-config-monorepo",
+  "version": "0.0.6",  
   "private": true,
   "license": "MIT",
   "description": "@shotanue/eslint-config",
@@ -19,10 +20,9 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@shotanue/eslint-config": "workspace:*",
+    "@shotanue/eslint-config": "*",
     "bumpp": "^7.1.1",
     "eslint": "^7.32.0",
     "typescript": "4.6.3"
-  },
-  "version": "0.0.6"
+  }
 }
