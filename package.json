@@ -15,7 +15,7 @@
   ],
   "author": "@shotanue",
   "homepage": "https://github.com/shotanue/eslint-config#readme",
-  "packageManager": "pnpm@6.32.3",
+  "packageManager": "pnpm@7.0.0-rc.9",
   "workspaces": [
     "packages/*"
   ],
