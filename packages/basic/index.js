@@ -17,6 +17,11 @@ module.exports = {
     'pnpm-lock.yaml',
     'yarn.lock'
   ],
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs'] }
+    }
+  },
   rules: {
     'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0 }],
     indent: ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }]
