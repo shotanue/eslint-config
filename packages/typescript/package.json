@@ -1,6 +1,6 @@
 {
   "name": "@shotanue/eslint-config-typescript",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "author": "shotanue <shotanue@gmail.com>",
   "homepage": "https://github.com/shotanue/eslint-config/tree/main/packages/typescript#readme",
