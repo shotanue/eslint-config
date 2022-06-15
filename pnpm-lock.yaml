@@ -5,12 +5,12 @@ importers:
   .:
     specifiers:
       '@shotanue/eslint-config': workspace:*
-      bumpp: 7.1.1
+      bumpp: 7.2.0
       eslint: 8.15.0
       typescript: 4.6.3
     devDependencies:
       '@shotanue/eslint-config': link:packages/all
-      bumpp: 7.1.1
+      bumpp: 7.2.0
       eslint: 8.15.0
       typescript: 4.6.3
 
@@ -339,8 +339,8 @@ packages:
     dependencies:
       fill-range: 7.0.1
 
-  /bumpp/7.1.1:
-    resolution: {integrity: sha512-pAGjraw9T4I4dnkiQHrKUVQb55dOM5Nj72SVtVlkjFjWjFtg0aSgipQuxDWZ0cqm8WoqtaiBPk+7jHfnZxr7lA==}
+  /bumpp/7.2.0:
+    resolution: {integrity: sha512-vQxdpWe7VzdpV4dVjpWoGwTDrKZn4eqKVmjIYUlDgrmjesXAqJnWhu+VFxazoE4pLs1q5NwDhgzK1xAFL0K+Jg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
