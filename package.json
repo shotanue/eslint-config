@@ -21,7 +21,7 @@
   ],
   "devDependencies": {
     "@shotanue/eslint-config": "workspace:*",
-    "bumpp": "7.1.1",
+    "bumpp": "8.2.1",
     "eslint": "8.15.0",
     "typescript": "4.6.3"
   }
