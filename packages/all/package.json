@@ -16,7 +16,7 @@
     "@shotanue/eslint-config-vue": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "8.15.0"
+    "eslint": "8.57.0"
   },
   "peerDependencies": {
     "eslint": "^8.15.0",
